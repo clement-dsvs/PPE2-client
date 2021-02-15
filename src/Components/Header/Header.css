@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: Verdana, serif;
+}
+
+.logoPromeo{
+    width: 120px;
+    z-index: 2;
+    position: absolute;
+    left: 5%;
+}
+
+.outerContainer{
+    width: 100%;
+    height: 50px;
+    position: relative;
+    background-color: #06A3DC;
+    display: flex;
+    flex-direction: row;
+}
+
+.linksHeader{
+    padding-left: 130px;
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+.linkHeader{
+    height: 50px;
+    padding: 0 2px;
+}
+
+#espaceFormateur{
+    position: absolute;
+    right: 5%;
+}
+
+#userName{
+    text-decoration: underline;
+}
+
+.toolsHeader{
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+}
+
+.toolsProfile{
+    display: flex;
+    flex-direction: row;
+}
+
+#powerOff{
+    line-height: 50px;
+    color: white;
+    font-size: 25px;
+    margin-top: 12.5px;
+    margin-left: 15px;
+}
+
+#powerOff:hover{
+    cursor: pointer;
+}
+
+.toolsHeader * {
+    flex: 1 1 0;
+    text-align: center;
+}
+
+.linkHeader p {
+    line-height: 50px;
+    color: white;
+}
